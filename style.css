@@ -1,0 +1,55 @@
+header{
+ background-color: rgb(254, 254, 254);
+    height: 80px;
+    width: 100%;
+}
+
+*{
+    font-family: system-ui, -apple-system;
+    font-size: 14px;
+}
+
+/* ////////////////////////////////////////// */
+
+.tab {
+}
+
+.tablist {
+    top: 89px;
+    position: fixed;
+    margin-left: 80px;
+    width: 90%;
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgb(251, 221, 155);
+    padding: 10px;
+}
+
+.tab ul {
+border: 1px solid rgb(172, 10, 10);
+
+    white-space: nowrap;
+ 
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+
+.tab ul::-webkit-scrollbar {
+    display: none;
+
+}
+
+.tab li {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    height: 10px;
+    color: rgb(92, 90, 90);
+}
+
+/* //////////////////////////////////////////// */
