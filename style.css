@@ -1,9 +1,9 @@
 header{padding: 10px;
    background-color: white;
    top: 0;
-    height: 80px;
+    height: 60px;
     width: 100%;
-    border-bottom: 1px solid #d7d7d7;
+    border-bottom: 3px solid #dfdfdf;
     position: fixed;
 }
 
@@ -14,19 +14,54 @@ header{padding: 10px;
     margin: 1;
 }
 
-/* ////////////////////////////////////////// */
+/* /////////////////barre de navigation//////////////////////// */
 
+.search-bar {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 5px;
+}
 
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    /*   transform: rotate(180deg) */
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #d33054;
+}
+
+/* //////////////////////////////////////////////////////////// */
 
 .tablist {
   background-color: white;
-    border: 1px solid rgb(120, 116, 116);
-    top: 100px;
+box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    /* border: 1px solid rgb(120, 116, 116); */
+    top: 81px;
     position: fixed;
-    margin-left: 55px;
-    width: 91%;
-    /* padding-left:40px;
-    padding-right: 40px; */
+    margin-left: 0px;
+    width: 99%;
+
 }
 
 
