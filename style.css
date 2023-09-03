@@ -1,6 +1,6 @@
-header{
- padding: 5px;
- background-color: white;
+header{padding: 10px;
+   background-color: white;
+   top: 0;
     height: 80px;
     width: 100%;
     border-bottom: 1px solid #d7d7d7;
@@ -20,8 +20,8 @@ header{
 
 .tablist {
   background-color: white;
-    /* border: 1px solid rgb(120, 116, 116); */
-    top: 98px;
+    border: 1px solid rgb(120, 116, 116);
+    top: 100px;
     position: fixed;
     margin-left: 55px;
     width: 91%;
@@ -50,7 +50,8 @@ header{
 }
 
 .tab li {
-    /* border: 1px solid black; */
+    /* borde
+r: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,7 @@ header{
     border-radius: 10px;
     padding: 15px;
     height: 10px;
+        background-color: white;
     color: rgb(92, 90, 90);
 }
 
