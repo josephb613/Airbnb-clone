@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <style>
+        .carousel-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .carousel {
+            display: flex;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .carousel-item {
+            flex: 0 0 300px;
+            height: 100%;
+        }
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .carousel-button:hover {
+            opacity: 1;
+        }
+
+        .carousel-container:hover .carousel-button {
+            opacity: 1;
+        }
+
+        .carousel-button.prev {
+            left: 0;
+        }
+
+        .carousel-button.next {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="https://picsum.photos/100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/300" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://picsum.photos/400" alt="Image 3">
+            </div>
+        </div>
+        <div class="carousel-button prev" id="prevButton">&#9664;</div>
+        <div class="carousel-button next" id="nextButton">&#9654;</div>
+    </div>
+
+    <script>
+        // const carousel = document.querySelector('.carousel');
+        // const prevButton = document.getElementById('prevButton');
+        // const nextButton = document.getElementById('nextButton');
+        // let currentIndex = 0;
+
+        // nextButton.addEventListener('click', () => {
+        //     currentIndex = (currentIndex + 1) % 3;
+        //     updateCarousel();
+        // });
+
+        // prevButton.addEventListener('click', () => {
+        //     currentIndex = (currentIndex - 1 + 3) % 3;
+        //     updateCarousel();
+        // });
+
+        // function updateCarousel() {
+        //     carousel.style.transform = `translateX(-${currentIndex * 300}px)`;
+        // }
+    </script>
+</body>
+</html>

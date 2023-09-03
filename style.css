@@ -1,35 +1,44 @@
 header{
- background-color: rgb(254, 254, 254);
+ padding: 5px;
+ background-color: white;
     height: 80px;
     width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+    position: fixed;
 }
 
 *{
     font-family: system-ui, -apple-system;
     font-size: 14px;
+    padding: 1;
+    margin: 1;
 }
 
 /* ////////////////////////////////////////// */
 
-.tab {
-}
+
 
 .tablist {
-    top: 97px;
+  background-color: white;
+    /* border: 1px solid rgb(120, 116, 116); */
+    top: 98px;
     position: fixed;
-    margin-left: 80px;
-    width: 90%;
-    border: 1px solid rgb(8, 8, 8);
-    /* background-color: rgb(251, 221, 155); */
-    padding: 10px;
+    margin-left: 55px;
+    width: 91%;
+    /* padding-left:40px;
+    padding-right: 40px; */
 }
 
-.tab ul {
-border: 1px solid rgb(172, 10, 10);
 
+
+
+
+.tab ul {
+    background-color: white;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    /* border: 1px solid rgb(172, 10, 10); */
     white-space: nowrap;
- 
-    padding: 10px;
     display: flex;
     gap: 20px;
     overflow: auto;
@@ -41,7 +50,7 @@ border: 1px solid rgb(172, 10, 10);
 }
 
 .tab li {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,4 +63,9 @@ border: 1px solid rgb(172, 10, 10);
 
 
 
+/* ///////////////////// grid/////////////////////////// */
+
+
+
 /* //////////////////////////////////////////// */
+
