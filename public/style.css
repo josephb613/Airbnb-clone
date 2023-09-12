@@ -1,4 +1,18 @@
-header{padding: 10px;
+:root {
+    --border: 1px solid black;
+    --white: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+header{
+    padding: 10px;
    background-color: white;
    top: 0;
     height: 70px;
@@ -120,5 +134,104 @@ r: 1px solid black; */
 
 
 
-/* //////////////////////////////////////////// */
 
+
+
+
+/* 12. footer  */
+
+/* footer global paramettre */
+footer{
+    font-family: system-ui, -apple-system;
+    background-color: #f7f7f7;
+    height: 50rem;
+    width: 100%;
+}
+/* paramettre de bloc assistant , Accueil de voyageurs , Airbnb*/
+.footer__section {
+    font-weight: 300;
+    margin-left: 1rem;
+    display: flex;
+    gap: 12rem;
+}
+.footer__section {
+    line-height: 2.5rem;
+}
+
+.footer__section--section-1 ul,
+.footer__section--section-2 ul,
+.footer__section--section-3 ul {
+    margin-top: -0.8rem;  
+    /* espacement entre les h2 et les ul */
+    color: #222222;
+    list-style: none;
+}  
+
+
+.footer__section--section-1 h2,
+.footer__section--section-2 h2,
+.footer__section--section-3 h2{
+color: #222222;
+margin-left: 2.8rem;
+}
+
+/* ///////////////////////////// */
+
+
+/* footer__section0 */
+
+.footer__section0{
+    padding: 4rem;
+}
+
+.footer__section0 h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.footer__section0 ul {
+color: #717171;
+margin: 3rem -2.7rem;
+display: flex;
+gap: 4rem;
+list-style: none;
+}
+
+.footer__section0 li:hover{
+background-color: #e6e6e6;
+}
+
+/* (bloc 4) footer__section--section-4*/
+
+
+.footer__section--section-4 {
+    /* border: var(--border); */
+    margin-top: 0.8rem;
+    margin-left: 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.footer__section--section-4--ul ul {
+    list-style: none;
+    font-weight: 300;
+    display: flex;
+        gap: 1rem;
+        margin-top: -0.02rem;
+}
+
+/*  (bloc 5) section  footer__section--section--5--span  */
+
+.footer__section--section-5--span{
+
+/* border: var(--border); */
+display: flex;
+gap: 1rem;
+margin-left: 10rem;
+}
+
+.souligner-footer hr{
+    border: 0.5px solid #e1e1e1;
+    width: 90%;
+}
