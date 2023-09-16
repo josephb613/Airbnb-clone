@@ -198,9 +198,9 @@ gap: 4rem;
 list-style: none;
 }
 
-.footer__section0 li:hover{
-background-color: #e6e6e6;
-}
+/* .footer__section0 li:focus{
+border-bottom: 1px solid black;
+} */
 
 /* (bloc 4) footer__section--section-4*/
 
